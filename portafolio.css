@@ -63,19 +63,32 @@ a:visited, a:link{
 }
 
 body{
-    min-height: 100vh;
-    background: linear-gradient(0,  blue 25%, yellow 50%,  blue 75%);
-    color: white;
-
+  min-height: 100vh;
+  background: url(imgport/slveerrr.webp) no-repeat center;
+  background-size: cover; 
+  color: white;
 }
+
 header{
-    place-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+h1{
+font-size: 2em;
+text-align: center;
+}
+
+.bienvenida {
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
 }
 
 footer{
     padding: 1em;
-    background-color: gray;
     color: white;
     text-align: center;
 
