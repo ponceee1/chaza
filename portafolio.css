@@ -82,10 +82,81 @@ text-align: center;
 }
 
 .bienvenida {
-  padding: 20px;
-  text-align: center;
-  max-width: 800px;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.6;
+
 }
+
+
+.trabajo-preview {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100px;
+}
+
+.trabajo-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+  border-bottom: 2px solid white;
+}
+
+.trabajo-preview:hover img {
+  transform: scale(1.1); /* Efecto de zoom */
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.proyectitos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 80px;
+  padding: 60px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.card {
+  background: rgba(0, 0, 0, 0,6); /*oscurece para que no se mezcle con el fondo*/
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+  color: white;
+  
+}
+
+.card:hover {
+  transform: scale(1.03); /* agranda un poco al pasar el mouse */
+}
+
+.info-proyecto {
+  padding: 25px;
+  text-align: center;
+}
+
+.info-proyecto h2 {
+  font-size: 1.2em;
+}
+
+.info-proyecto p {
+  font-size: 1.1em;
+  color: #ccc;
+};
+
 
 footer{
     padding: 1em;
