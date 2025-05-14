@@ -64,15 +64,19 @@ a:visited, a:link{
 
 body{
   min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 60px;
   background: url(imgport/slveerrr.webp) no-repeat center;
   background-size: cover; 
   color: white;
+  
 }
 
 header{
   align-items: center;
   justify-content: center;
-  display: flex;
+  display: grid;
   margin-bottom: 50px;
 }
 
@@ -161,44 +165,36 @@ text-align: center;
   color: #ccc;
 };
 
-.redes {
-  background: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  padding: 2em 0;
-}
-
-.redes h3 {
-  text-align: center;
-  margin-bottom: 1em;
-  font-size: 1.5em;
-}
-
-.contenedor-redes {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-}
-
-.red {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
-
-.red i {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
 
 footer {
   background: rgba(0, 0, 0, 0.8);
   padding: 1em;
   color: white;
   text-align: center;
-  width: 100%;
+  width: 100%;  
   position: relative;
   bottom: 0;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85em;
+  color: white;
+}
+
+.red i {
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+  color: white;
 }
