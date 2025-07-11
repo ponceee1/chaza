@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  .logo-stylish {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .titulo {
+    color: rgb(0, 110, 255);
+    font-size: 20px;
+    margin: 0;
+  }
+  .icono-izq {
+    font-size: 22px;
+    color: #1d1091;
+  }
+  
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+  }
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .barritaFiltros {
+    gap: 12px;
+    margin: 10px 20px;
+    display: flex;
+  }
+  .filtros {
+    display: flex;
+    gap: 10px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 8px 20px;
+    background-color: #d5dbdb;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .barritaCosas {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 20px;
+
+  }
+  
+  .promo-card {
+    background-color: #ffc6d1;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .promo-text h2 {
+    margin: 0;
+    font-size: 22px;
+    color: white;
+  }
+  .promo-text p {
+    margin: 10px 0;
+    color: white;
+    font-size: 14px;
+  }
+  .shop-btn {
+    background-color: white;
+    color: #ff2d55;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .promo-img {
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .dots-slider {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot.active {
+    background-color: #ff2d55;
+  }
+  
+
+  .deal-card {
+    background-color: #4d96ff;
+    color: white;
+    margin: 0 20px 30px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .barritaCosas img {
+    width: 70px ;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+ 
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f1f1;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
+
+  
